@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Righteous&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, #FBFFFF 0%, #B3FCFF 10.84%, #7CF7FF 24.66%, #45DFE4 37.29%, #2DD0DC 50%, #1AA3A8 66.67%, #198991 83.33%, #027E87 100%);
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.cabecalho-imagem {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Sarabun", sans-serif;
+    text-decoration: none;
+}
+   
+nav a:hover {
+    color:#00e1ff;
+    text-decoration: underline;
+}
+
+li {
+    text-decoration: non;
+}
+
+.conteudo {
+    margin-bottom: 200px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.conteudo-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo-titulo1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo-titulo2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #000000;
+}
+
+.botao {
+    background-color: #00eeffee;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+}
+
+.botao:hover {
+    background-color:#1cd0e7;
+    cursor: pointer;
+}
+
+.imagem-qrcode {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 45px;
+}
+
+.conteudo-titulo3 {
+    border-top: 1px solid #fff2e7;
+    padding-top: 40px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+p {
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ropade-paragrafo {
+    font-family: "Sarabun", sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+}
